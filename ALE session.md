@@ -80,7 +80,7 @@ There are 6 matrices that can be used:
  | TS       | Transfer / Species | 
  | LS       | Loss / Species     |
 
-### 9.4 Gene content evolution on the most likely rooted species tree
+### 4.4 Gene content evolution on the most likely rooted species tree
 Use [branchwise_number_of_events.py](https://github.com/ak-andromeda/ALE_methods/blob/main/branchwise_number_of_events.py) to calculate the predicted total
 number of duplication, transfer, loss, and origination events for all
 branches of the species tree and estimates the number of genes
