@@ -90,7 +90,7 @@ present in the ancestral genome at each internal tree node.
 Before running this script, open this script and change the input_path parameter. 
 Run this command below:
 
-    python branchwise.py 
+    python branchwise.py > dtloc.tsv  # <branchwise.py> is the name of this script
 Open the output file which is named .tsv. Check the internal node orders. 
 Remember the first and last internal node orders. If the order of internal nodes is from 16 to 30, 16 and 30 should be the first and last internal node orders. 
 
