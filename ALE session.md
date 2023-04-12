@@ -76,9 +76,9 @@ There are 6 matrices that can be used:
  | D        | Duplicate          | 
  | T        | Transfer           | 
  | L        |Loss                | 
- | DS       | Duplicate / Species | 
- | TS       | Transfer / Species | 
- | LS       | Loss / Species     |
+ | DS       | Duplicate / Speciation | 
+ | TS       | Transfer / Speciation | 
+ | LS       | Loss / Speciation     |
 
 ### 4.4 Gene content evolution on the most likely rooted species tree
 Use [branchwise_number_of_events.py](https://github.com/ak-andromeda/ALE_methods/blob/main/branchwise_number_of_events.py) to calculate the predicted total
