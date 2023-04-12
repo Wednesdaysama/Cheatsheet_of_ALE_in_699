@@ -67,7 +67,7 @@ In the first file, write the name of the directory of the root to be tested.
 In this example, write *root1*, *root2* and *root3*. In the second file, write the species names.
 Note: In these 2 txt files, each directory name or species name needs to be on a separate line. In directory A, run the following code:
 
-    python DTL_ratio_analysis_ML_diff.py reroot2 LS  # python <script name> <a directory contained the best tree's .uml_rec files> <matrix>
+    python DTL_ratio_analysis_ML_diff.py root2 LS  # python <script name> <a directory contained the best tree's .uml_rec files> <matrix>
     
 There are 6 matrices that can be used:
 
