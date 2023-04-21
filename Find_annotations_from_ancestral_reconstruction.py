@@ -28,7 +28,7 @@ def get_filenames_from_proteinname(proteinname: str):
     desired_names = [x for x in file_names if exist_desired_name(x, proteinname)]
     return desired_names
 
-# direatory 'orthologues_run_Friday' contains all the results of orthologues.py
+# directory 'orthologues_run_Friday' contains all the results of orthologues.py
 
 def find_species_gene_from_uml_rec():
     """
@@ -101,12 +101,12 @@ for i, proteinname in enumerate(df_merge['species_gene']):
     file_protein_.append(protein)
 
     if i % 100 == 0:
-        print(f"{i}/{len(df_merge)} \t Finshed.")
+        print(f"{i}/{len(df_merge)} \t Finished.")
 
 df_merge['gene_cluster'] = file_name_
 df_merge['protein'] = file_protein_
 df_merge.to_csv(r'C:\Users\ylc_c\OneDrive\desktop\df_merge_Apr_20.csv', index=False)
-# df_merge_Apr_20.csv is the final output file.
 
+# df_merge_Apr_20.csv is the final output file.
 
 # Still updating...
