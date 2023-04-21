@@ -1,4 +1,4 @@
-# This script was wrote by Fan Dong and modified by Lianchun.
+# This script was written by [Fan Dong](https://ca.linkedin.com/in/fan-dong-1203b9147) and modified by Lianchun.
 
 import os
 import re
