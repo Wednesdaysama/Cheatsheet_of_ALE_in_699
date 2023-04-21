@@ -106,7 +106,7 @@ for i, proteinname in enumerate(df_merge['species_gene']):
 df_merge['gene_cluster'] = file_name_
 df_merge['protein'] = file_protein_
 df_merge.to_csv(r'C:\Users\ylc_c\OneDrive\desktop\df_merge_Apr_20.csv', index=False)
-
 # df_merge_Apr_20.csv is the final output file.
+
 
 # Still updating...
